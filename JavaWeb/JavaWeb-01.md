@@ -19,3 +19,37 @@
    1. html、css
    2. JavaScript、Vue
    3. 异步交互技术
+
+---
+
+# DAY1
+
+1. HTML :超文本标记语言
+   1. 超文本
+   2. 标记语言
+
+2. CSS
+
+3. 学习HTML常用标签和css常用样式
+
+   1. 参考官方文档[w3school](https://www.w3cschool.cn/tutorial)
+
+4. HTML结构
+
+   ```html
+   <html>
+       <head>
+           <title>标题</title>
+           <body>
+               
+           </body>
+       </head>
+   </html>
+   ```
+
+   1. 标签不区分大小写，但开发中一般用小写
+   2. 属性值不区分单双引号
+
+5. VS Code配置
+
+   1. 
