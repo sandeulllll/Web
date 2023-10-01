@@ -28,4 +28,7 @@
 
 ---
 
-# 待更新：基于springboot的web程序入门
+# 基于springboot的web程序入门
+
+* SpringBootWeb集成了Tomcat，因此独立下载的Tomcat程序很少被使用（在基于SpringBoot开发的过程中）
+* 当启动类运行时，会自动启动内嵌的Tomcat服务器
