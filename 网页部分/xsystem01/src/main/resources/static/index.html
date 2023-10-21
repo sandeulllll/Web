@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THIS IS XG</title>
+</head>
+<body>
+    <h1>Hello,XG !</h1>
+    <p id="temperature"></p>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function getRealTimeTemperature(){
+            $.ajax({
+                url: '/getTemperature',
+                method: 'GET',
+                success: function(data){
+                    var temperatureElement = document.getElementById("temperature");
+                    temperatureElement.innerText = "Current Temperature: " + data + "°C";
+                },
+                error: function(error){
+                    console.error('Error:',error);
+                }
+            });
+        }
+
+        getRealTimeTemperature();
+
+        
+    </script>
+
+    
+</body>
+</html>
